@@ -1,0 +1,213 @@
+body {
+  background-color: rgb(161, 153, 153);
+  /*margin-top: 60px;
+margin-left: 200px;
+margin-bottom: 0px;
+margin-right: 200px;*/
+  /*Forma abreviada*/
+  /*Las manecillas del reloj (Inicia derecha) Top, derecha, abajo y a la izquierda*/
+  margin: 60px 200px 0px 200px;
+
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  background-color: rgb(161, 153, 153);
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  padding: 15px;
+}
+li :hover {
+  background-color: black;
+  color: darkgrey;
+}
+.information {
+  display: inline-flex;
+}
+span.tituloshakiira {
+  display: inline-flex;
+}
+
+.information p {
+  max-width: 50%;
+  margin: 0;
+  align-self: center;
+  padding-left: 50px;
+}
+
+span.shakiratitulo {
+  display: inline-flex;
+  font-size: 60px;
+  color: white;
+}
+
+span.tituloshakiira {
+  display: inline-flex;
+  font-size: 60px;
+  color: white;
+}
+
+.parallax {
+  background-image: url(../Imagenes/eldorado.jpg);
+  background-size: contain 100% 100%;
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tituloparallax h2 {
+  font-size: 3cm;
+  color: goldenrod;
+  font-weight: 700;
+  text-align: center;
+  margin: 0px;
+}
+
+.parrafoparallax {
+  display: flex;
+  justify-content: center;
+  border: 20px solid rgba(245, 245, 245, 0.719);
+}
+
+.parrafoparallax:hover {
+  background-color: teal;
+  opacity: 0.7;
+}
+
+.parrafoparallax a {
+  color: rgba(245, 245, 245, 0.658);
+  font-weight: 400;
+  padding: 10px 10px;
+  margin: 0;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+section.contenidomusica {
+  letter-spacing: 5px;
+  line-height: 2px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+section.contenidomusica {
+  color: black;
+  font-weight: 900;
+  text-align: center;
+  margin: 150px 0px;
+  font-size: 35px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+div.container {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  margin: auto;
+}
+div.container div.card {
+  width: 400px;
+  height: 500px;
+  text-align: center;
+
+}
+.container.card:hover{
+transform: translate(-15px);
+
+}
+div.container div.card img {
+  width: 350px;
+  height: 350px;
+  border-radius: 8px;
+  transition:all 0.25s;
+}
+
+div.container div.card h2 {
+  font-size: 25px;
+  font-weight: 800;
+  color: black;
+}
+
+div.container div.card p {
+  font-size: 25px;
+  color: whitesmoke;
+  justify-content: center;
+}
+
+div.container div.card a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 500;
+  
+
+}
+
+section.videos div.videos {
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+div.ultimosvideos iframe {
+  width: 60px;
+}
+
+div.viideosdos iframe {
+  justify-content: center;
+  padding: 35px;
+}
+
+h3 {
+  font-size: 35px;
+  font-weight: 800;
+  color: black;
+  text-align: center;}
+footer{
+
+  background-color:rgb(161, 153, 153);
+  color:white;
+}
+.container-footer-all{
+  width:100%;
+  max-width: 1200px;
+  margin:auto
+}
+
+.container-body{
+display: flex;}
+
+.column1{
+  max-width: 400px;}
+
+.column1 h1{
+  font-size: 22px;
+}
+
+
+.column1 p{
+  font-size: 14px;
+  color: whitesmoke;
+  margin-top: 20px;
+}
+
+.column2{
+  max-width: 400px;}
+
+  .row{
+    margin-top: 20px;
+    display: flex;
+  }
+  .row img{
+    width: 36px;
+    height: 36px;
+  }
